@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.register.RegisterFragment"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageBack"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/back"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <TextView
+        android:id="@+id/textRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="40sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"/>
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_background"
+            android:inputType="text"
+            android:hint="jane Wick"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_background"
+            android:inputType="textEmailAddress"
+            android:hint="jane@example.com"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_background"
+            android:inputType="textPassword"
+            android:hint="Enter Your Password"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordAgainRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_background"
+            android:inputType="textPassword"
+            android:hint="Enter Your Password Again"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/registerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:text="Register"
+            android:textSize="18sp"/>
+
+
+</LinearLayout>

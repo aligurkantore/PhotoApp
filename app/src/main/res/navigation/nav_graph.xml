@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.codingurkan.photoapp.ui.fragments.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_photoListFragment"
+            app:destination="@id/photoListFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_photoDetailsFragment"
+            app:destination="@id/photoDetailsFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.codingurkan.photoapp.ui.fragments.register.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_photoListFragment"
+            app:destination="@id/photoListFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoListFragment"
+        android:name="com.codingurkan.photoapp.ui.fragments.photolist.PhotoListFragment"
+        android:label="fragment_photo_list"
+        tools:layout="@layout/fragment_photo_list" >
+        <action
+            android:id="@+id/action_photoListFragment_to_photoDetailsFragment"
+            app:destination="@id/photoDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoSearchFragment"
+        android:name="com.codingurkan.photoapp.ui.fragments.photosearch.PhotoSearchFragment"
+        android:label="fragment_photo_search"
+        tools:layout="@layout/fragment_photo_search" >
+        <action
+            android:id="@+id/action_photoSearchFragment_to_photoDetailsFragment"
+            app:destination="@id/photoDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoDetailsFragment"
+        android:name="com.codingurkan.photoapp.ui.fragments.photodetails.PhotoDetailsFragment"
+        android:label="fragment_photo_details"
+        tools:layout="@layout/fragment_photo_details" />
+</navigation>

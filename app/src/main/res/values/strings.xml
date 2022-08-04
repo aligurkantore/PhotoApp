@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PhotoApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="like">2.37</string>
+    <string name="comment">(496 yorum)</string>
+    <string name="views">25K(görüntülenme)</string>
+    <string name="search_view">Ara</string>
+    <string name="next">İleri</string>
+    <string name="back">Geri</string>
+    <string name="page">1</string>
+    <string name="user_name_default">Ali Gürkan TÖRE</string>
+    <string name="welcome_search">Arama Sayfasına Hoşgeldiniz!</string>
+</resources>
