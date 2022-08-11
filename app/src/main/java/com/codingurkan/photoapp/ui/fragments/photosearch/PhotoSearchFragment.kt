@@ -73,6 +73,7 @@ class PhotoSearchFragment : BaseFragment<FragmentPhotoSearchBinding, PhotoSearch
                         btnNext.visibility = View.INVISIBLE
                         tvPage.visibility = View.INVISIBLE
                         recyclerView.visibility = View.INVISIBLE
+                        Toast.makeText(requireContext(), "No Result!!!", Toast.LENGTH_SHORT).show()
                     }
                 }
             }
