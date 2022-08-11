@@ -15,7 +15,7 @@ class PhotoDetailsFragment : Fragment() {
 
     private var binding : FragmentPhotoDetailsBinding? = null
     private var data : Hit? = null
-    private var stringComment : String = "yorum"
+    private var stringComment : String = "comments"
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

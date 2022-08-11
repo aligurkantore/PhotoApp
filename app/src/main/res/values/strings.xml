@@ -3,14 +3,14 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="like">2.37</string>
-    <string name="comment">(496 yorum)</string>
-    <string name="views">25K(görüntülenme)</string>
-    <string name="search_view">Ara</string>
-    <string name="next">İleri</string>
-    <string name="back">Geri</string>
+    <string name="comment">(496 comments)</string>
+    <string name="views">25K(views)</string>
+    <string name="search_view">Search</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
     <string name="page">1</string>
     <string name="user_name_default">Ali Gürkan TÖRE</string>
-    <string name="welcome_search">Arama Sayfasına Hoşgeldiniz!</string>
+    <string name="welcome_search">Welcome Search Page!</string>
     <string name="login">Log in</string>
     <string name="example_email">jane@example.com</string>
     <string name="example_password">*************</string>

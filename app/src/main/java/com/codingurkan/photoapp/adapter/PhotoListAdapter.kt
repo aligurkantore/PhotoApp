@@ -21,8 +21,8 @@ private val itemClickListener : ItemClickListener) : RecyclerView.Adapter<PhotoL
             val data = photoList[position]
             imageViewList.loadImage(data.previewURL)
             likeTv.text = data.likes.toString()
-            commentTv.text = "(${data.comments} yorum)"
-            viewsTv.text =  "${data.views/(1000)}K(görüntülenme)"
+            commentTv.text = "(${data.comments} comments)"
+            viewsTv.text =  "${data.views/(1000)}K(views)"
 
             imageViewList.setOnClickListener {
                 itemClickListener.onClick(data)
