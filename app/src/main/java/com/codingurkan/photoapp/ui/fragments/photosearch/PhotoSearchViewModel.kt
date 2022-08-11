@@ -3,10 +3,8 @@ package com.codingurkan.photoapp.ui.fragments.photosearch
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.codingurkan.photoapp.model.Hit
 import com.codingurkan.photoapp.model.PhotoResponseModel
 import com.codingurkan.photoapp.repository.PhotoSearchListRepository
-import com.codingurkan.photoapp.service.ApiService
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

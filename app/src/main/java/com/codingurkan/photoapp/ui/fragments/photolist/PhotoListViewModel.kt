@@ -3,7 +3,6 @@ package com.codingurkan.photoapp.ui.fragments.photolist
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.codingurkan.photoapp.model.Hit
 import com.codingurkan.photoapp.model.PhotoResponseModel
 import com.codingurkan.photoapp.repository.PhotoListRepository
 import dagger.hilt.android.lifecycle.HiltViewModel

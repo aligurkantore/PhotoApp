@@ -13,13 +13,14 @@
         android:layout_height="20dp"
         android:src="@drawable/back"
         android:clickable="true"
-        android:focusable="true"/>
+        android:focusable="true"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/textRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="@string/text_register"
         android:textSize="40sp"
         android:layout_marginTop="16dp"
         android:textColor="@color/black"/>
@@ -31,7 +32,7 @@
             android:layout_height="50dp"
             android:background="@drawable/edit_text_background"
             android:inputType="text"
-            android:hint="jane Wick"
+            android:hint="@string/example_name"
             android:layout_marginTop="16dp"
             android:textColor="@color/black"/>
 
@@ -41,7 +42,7 @@
             android:layout_height="50dp"
             android:background="@drawable/edit_text_background"
             android:inputType="textEmailAddress"
-            android:hint="jane@example.com"
+            android:hint="@string/example_email"
             android:layout_marginTop="16dp"
             android:textColor="@color/black"/>
 
@@ -51,7 +52,7 @@
             android:layout_height="50dp"
             android:background="@drawable/edit_text_background"
             android:inputType="textPassword"
-            android:hint="Enter Your Password"
+            android:hint="@string/enter_password"
             android:layout_marginTop="16dp"
             android:textColor="@color/black"/>
 
@@ -61,7 +62,7 @@
             android:layout_height="50dp"
             android:background="@drawable/edit_text_background"
             android:inputType="textPassword"
-            android:hint="Enter Your Password Again"
+            android:hint="@string/enter_password_again"
             android:layout_marginTop="16dp"
             android:textColor="@color/black"/>
 
@@ -72,7 +73,7 @@
             android:layout_marginTop="16dp"
             android:backgroundTint="@color/black"
             android:textColor="@color/white"
-            android:text="Register"
+            android:text="@string/text_register_button"
             android:textSize="18sp"/>
 
 

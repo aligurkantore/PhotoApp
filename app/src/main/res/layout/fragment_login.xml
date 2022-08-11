@@ -7,19 +7,11 @@
     android:orientation="vertical"
     android:padding="20dp">
 
-    <ImageView
-        android:id="@+id/imageBack"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:src="@drawable/back"
-        android:clickable="true"
-        android:focusable="true" />
-
         <TextView
             android:id="@+id/textLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Log in"
+            android:text="@string/login"
             android:textSize="40sp"
             android:layout_marginTop="16dp"
             android:textColor="@color/black"/>
@@ -31,7 +23,7 @@
             android:background="@drawable/edit_text_background"
             android:inputType="textEmailAddress"
             android:layout_marginTop="16dp"
-            android:hint="jane@example.com"
+            android:hint="@string/example_email"
             android:textColor="@color/black"/>
 
         <com.google.android.material.textfield.TextInputEditText
@@ -40,7 +32,7 @@
             android:layout_height="50dp"
             android:background="@drawable/edit_text_background"
             android:inputType="textPassword"
-            android:hint="*************"
+            android:hint="@string/example_password"
             android:layout_marginTop="16dp"
             android:textColor="@color/black"/>
 
@@ -51,14 +43,14 @@
             android:layout_marginTop="16dp"
             android:backgroundTint="@color/black"
             android:textColor="@color/white"
-            android:text="Log ın"
+            android:text="@string/button_login"
             android:textSize="18sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Don't have an account?"
+            android:text="@string/text_account"
             android:layout_gravity="center"
             android:textSize="20sp"/>
 
@@ -67,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Register"
+            android:text="@string/text_register"
             android:textSize="20sp"
             android:layout_gravity="center"
             android:clickable="true"

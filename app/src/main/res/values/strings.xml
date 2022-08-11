@@ -11,4 +11,16 @@
     <string name="page">1</string>
     <string name="user_name_default">Ali Gürkan TÖRE</string>
     <string name="welcome_search">Arama Sayfasına Hoşgeldiniz!</string>
+    <string name="login">Log in</string>
+    <string name="example_email">jane@example.com</string>
+    <string name="example_password">*************</string>
+    <string name="button_login">Log ın</string>
+    <string name="text_account">Don\'t have an account?</string>
+    <string name="text_register">Register</string>
+    <string name="text_search">Search</string>
+    <string name="example_name">Jane Wick</string>
+    <string name="enter_password">Enter Your Password</string>
+    <string name="enter_password_again">Enter Your Password Again</string>
+    <string name="text_register_button">Regıster</string>
+
 </resources>
