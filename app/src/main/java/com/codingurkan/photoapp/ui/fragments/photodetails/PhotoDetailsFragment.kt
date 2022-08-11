@@ -15,6 +15,7 @@ class PhotoDetailsFragment : Fragment() {
 
     private var binding : FragmentPhotoDetailsBinding? = null
     private var data : Hit? = null
+    private var stringComment : String = "yorum"
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,9 +30,8 @@ class PhotoDetailsFragment : Fragment() {
         initListeners()
     }
     private fun initListeners(){
-        binding?.imageDetails?.loadImage(data?.previewURL.toString())
-        binding?.userImage?.loadImage(data?.userImageURL.toString())
+        data?.webformatURL.let { binding?.imageDetails?.loadImage(it.toString()) }
+        binding?.likeDetailsTv?.text= data?.likes.toString()
+        binding?.commentDetailsTv?.text = "(${data?.comments} $stringComment)"
     }
-
-
 }
