@@ -3,17 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19" />
         <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/drawable/edit_text_background.xml" value="0.189" />
+        <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19" />
         <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/drawable/ic_star.xml" value="0.1735" />
         <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/drawable/ic_views.xml" value="0.189" />
         <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/drawable/search_view_background.xml" value="0.189" />
         <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/layout/activity_main.xml" value="0.22146739130434784" />
-        <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/layout/fragment_login.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/layout/fragment_login.xml" value="0.1514052583862194" />
         <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/layout/fragment_logor_reg.xml" value="0.22146739130434784" />
         <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/layout/fragment_photo_details.xml" value="0.22146739130434784" />
         <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/layout/fragment_photo_list.xml" value="0.22146739130434784" />
-        <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/layout/fragment_photo_search.xml" value="0.22146739130434784" />
-        <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/layout/fragment_register.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/layout/fragment_photo_search.xml" value="0.1514052583862194" />
+        <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/layout/fragment_register.xml" value="0.1514052583862194" />
         <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/layout/fragment_splash.xml" value="0.22146739130434784" />
         <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/layout/photo_list_item.xml" value="0.22146739130434784" />
         <entry key="..\:/Users/mizmilli/AndroidStudioProjects/PhotoApp/app/src/main/res/layout/photo_list_items.xml" value="0.2" />

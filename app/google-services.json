@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "654409216988",
-    "project_id": "photoapp-2cef4",
-    "storage_bucket": "photoapp-2cef4.appspot.com"
+    "project_number": "46391680664",
+    "project_id": "photoapp-7ecde",
+    "storage_bucket": "photoapp-7ecde.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:654409216988:android:007c7720eee9afa7695519",
+        "mobilesdk_app_id": "1:46391680664:android:f571156c506250fbc7faed",
         "android_client_info": {
           "package_name": "com.codingurkan.photoapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "654409216988-aju8augibc3ptlrtkcl9k7osmdpnf0oi.apps.googleusercontent.com",
+          "client_id": "46391680664-is981rc5d80cpc37ao4is2sn68vld9a8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA7aOljVdiOcXsXlJsrnmxYaFJ56hZGCwg"
+          "current_key": "AIzaSyC00wVyrvch9pPsVnNY5bRlPq8FdBdohEk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "654409216988-aju8augibc3ptlrtkcl9k7osmdpnf0oi.apps.googleusercontent.com",
+              "client_id": "46391680664-is981rc5d80cpc37ao4is2sn68vld9a8.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
